@@ -1,0 +1,268 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <!--Import Google Icon Font-->
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+
+    <!-- Compiled and minified CSS -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+
+    <!--Import fontawesome icon-->
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
+    
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+    <!--Let browser know website is optimized for mobile-->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+</head>
+
+<body id="home" class="scrollspy">
+    <!--Navbar-->
+    <div class="navbar-fixed">
+        <nav class="transparent">
+            <div class="nav-wrapper container">
+                <a href="#" class="brand-logo">Portfolio</a>
+                <a href="#" data-target="nav-mobile" class="sidenav-trigger">
+                    <i class="material-icons">menu</i>
+                </a>
+                <ul class="right hide-on-med-and-down">
+                    <li><a href="#home">Home</a></li>
+                    <li><a href="#skills">Skills</a></li>
+                    <li><a href="#projects">Projects</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+
+                <ul id="nav-mobile" class="sidenav">
+                    <li><a href="#home">Home</a></li>
+                    <li><a href="#skills">Skills</a></li>
+                    <li><a href="#projects">Projects</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+            </div>
+        </nav>
+
+        <div class="parallax-container center white-text">
+            <div class="section">
+                <div class="container">
+                    <h2 class="showcase-header">Hi, I am Susan</h2>
+                    <h4>A web developer</h4>
+                </div>
+            </div>
+            <div class="parallax">
+                <img src="img/stars-r.png">
+            </div>
+        </div>
+    </div>
+
+    <!--Section: Skills-->
+    <section class="section section-skills grey lighten-2 scrollspy" id="skills">
+        <div class="container">
+            <h3 class="center">Skills</h3>
+            <div class="row">
+                <div class="col s12 m4">
+                    <div class="card-panel grey-text text-darken-1">
+                        <h5 class="center">Front End</h5>
+                        <ul class="browser-default">
+                            <li>JavaScript(ES6+)
+                                <ul class="browser-default">
+                                    <li>React(Redux)</li>
+                                    <li>Vue(Vuex)</li>
+                                </ul>
+                            </li>
+                            <li>CSS3
+                                <ul class="browser-default">
+                                    <li>Sass</li>
+                                    <li>Materialize</li>
+                                    <li>Bootstrap</li>
+                                </ul>
+                            </li>
+                            <li>HTML5</li>
+                            <li>Data Visualization
+                                <ul class="browser-default">
+                                    <li>ApexCharts.js</li>
+                                </ul>
+                            </li>
+                            <li>Data Fetching
+                                <ul class="browser-default">
+                                    <li>Fetch</li>
+                                    <li>Axios</li>
+                                </ul>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+
+                <div class="col s12 m4">
+                    <div class="card-panel grey-text text-darken-1">
+                        <h5 class="center">Back End</h5>
+                        <ul class="browser-default">
+                            <li>Node.js(Express)</li>
+                            <li>PHP</li>
+                            <li>SQL database
+                                <ul class="browser-default">
+                                    <li>SQL Server</li>
+                                    <li>MySQL</li>
+                                </ul>
+                            <li>NoSQL database
+                                <ul class="browser-default">
+                                    <li>MongoDB</li>
+                                    <li>Firestore</li>
+                                </ul>
+                            <li>REST API
+                                <ul class="browser-default">
+                                    <li>HTTP</li>
+                                    <li>AJAX</li>
+                                    <li>JSON</li>
+                                </ul>
+                            </li>
+                            <li>OAuth</li>
+                        </ul>
+                    </div>
+                </div>
+
+                <div class="col s12 m4">
+                    <div class="card-panel grey-text text-darken-1">
+                        <h5 class="center">Other Tools</h5>
+                        <ul class="browser-default ">
+                            <li class="left-align">NPM</li>
+                            <li>Webpack</li>
+                            <li>Babel</li>
+                            <li>Git, github</li>
+                            <li>Gulp</li>
+                            <li>Browser dev tools</li>
+                            <li>Test
+                                <ul class="browser-default">
+                                    <li>Mocha</li>
+                                    <li>Postman</li>
+                                    <li>Cypress</li>
+                                </ul>
+                            </li>
+                            <li>Text-iditor
+                                <ul class="browser-default">
+                                    <li>VSCode</li>
+                                    <li>Webstorm</li>
+                                </ul> 
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!--Section: projects-->
+    <section class="section section-projects center teal lighten-3 scrollspy" id="projects">
+        <div class="container">
+            <h3>Projects</h3>
+            <div class="row">
+                <div class="col s12 m6">
+                    <div class="card">
+                        <div class="card-image">
+                            <img src="img/Schedule Planner.PNG" class="materialboxed"><br>
+                            <span>Schedule Planner</span>
+                        </div>
+                        <div class="card-content">
+                            <p class="flow-text">Full-stack web application for schedule planning using React, Redux, Firstore, Firebase authentication and materialize.css</p>
+                        </div>
+                        <div class="card-action">
+                            <a href="https://schedule-planner-c324b.firebaseapp.com/signin">Link to website</a>
+                            <a href="https://github.com/susanliubc/Schedule_Planner">Link to code</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col s12 m6">
+                    <div class="card">
+                        <div class="card-image">
+                            <img src="img/Task Management.png" class="materialboxed"><br>
+                            <span>Task Management</span>
+                        </div>
+                        <div class="card-content">
+                            <p class="flow-text">Full-stack web application for task management using Vue, Vuex, Vue-Router, Firstore, Firebase authentication and Vuetify</p>
+                        </div>
+                        <div class="card-action">
+                            <a href="https://task-management-b12aa.firebaseapp.com/login">Link to website</a>
+                            <a href="https://github.com/susanliubc/Task_Management">Link to code</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col s12 m6">
+                    <div class="card">
+                        <div class="card-image">
+                            <img src="img/TravelSichuan-r.png" class="materialboxed"><br>
+                            <span>TravelSichuan</span>
+                        </div>
+                        <div class="card-content">
+                            <p class="flow-text">Front end web page for travel agency using HTML, CSS, materialize.css, yall.js to achieve responsive web design</p>
+                        </div>
+                        <div class="card-action">
+                            <a href="https://susanliubc-travelsichuan-1.glitch.me/">Link to website</a>
+                            <a href="https://github.com/susanliubc/TravelSichuan">Link to code</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col s12 m6">
+                    <div class="card">
+                        <div class="card-image">
+                            <img src="img/SweetTime-r.png" class="materialboxed"><br>
+                            <span>SweetTime</span>
+                        </div>
+                        <div class="card-content">
+                            <p class="flow-text">Front end web pages for dessert shop using HTML, CSS, materialize.css, yall.js to improve website performance</p>
+                        </div>
+                        <div class="card-action">
+                            <a href="https://susanliubc-sweettime.glitch.me/index.html">Link to website</a>
+                            <a href="https://github.com/susanliubc/SweetTime">Link to code</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <a href="https://github.com/susanliubc?tab=repositories" class="white-text">For more projects, click here</a>
+        </div>
+    </section>
+
+    <!--Section: contact-->
+    <section class="section section-contact center grey lighten-2 scrollspy" id="contact">
+            <div class="container">
+                <h3>Contact</h3>
+                <div class="row">
+                    <div class="col s12">
+                        <h5 class="white-text">Get in touch with me </h5>
+                        <a href="https://www.linkedin.com/in/susan-liu-178014170/" class="white-text">
+                            <i class="fab fa-linkedin fa-4x"></i>
+                        </a>
+                        <a href="https://github.com/susanliubc?tab=repositories" class="white-text">
+                            <i class="fab fa-github fa-4x"></i>
+                        </a>
+                        <a href="mailto: susanliubc@gmail.com" class="white-text">
+                            <i class="fa fa-envelope fa-4x"></i>
+                        </a>
+                    </div>
+                </div>
+            </div>
+    </section>
+    <!--JavaScript at end of body for optimized loading-->
+    <!-- Compiled and minified JavaScript -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>    
+    <script>
+        document.addEventListener('DOMContentLoaded', function() {
+            //Sidenav
+            const sidenav = document.querySelectorAll('.sidenav');
+            M.Sidenav.init(sidenav, {});
+
+            //Parallax
+            const parallax = document.querySelectorAll('.parallax');
+            M.Parallax.init(parallax, {});
+
+            //Material boxed
+            const mb = document.querySelectorAll('.materialboxed');
+            M.Materialbox.init(mb, {});
+
+            //Scrollspy
+            const ss = document.querySelectorAll('.scrollspy');
+            M.ScrollSpy.init(ss, {});
+        });
+    </script>
+</body>
+</html>
+        

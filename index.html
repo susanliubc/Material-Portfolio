@@ -17,29 +17,35 @@
 
 <body id="home" class="scrollspy">
     <!--Navbar-->
-    <div class="navbar-fixed">
-        <nav class="transparent">
-            <div class="nav-wrapper container">
-                <a href="#" class="brand-logo">Portfolio</a>
-                <a href="#" data-target="nav-mobile" class="sidenav-trigger">
-                    <i class="material-icons">menu</i>
-                </a>
-                <ul class="right hide-on-med-and-down">
-                    <li><a href="#home">Home</a></li>
-                    <li><a href="#skills">Skills</a></li>
-                    <li><a href="#projects">Projects</a></li>
-                    <li><a href="#contact">Contact</a></li>
-                </ul>
-
-                <ul id="nav-mobile" class="sidenav">
-                    <li><a href="#home">Home</a></li>
-                    <li><a href="#skills">Skills</a></li>
-                    <li><a href="#projects">Projects</a></li>
-                    <li><a href="#contact">Contact</a></li>
-                </ul>
-            </div>
-        </nav>
-
+    <header class="main-header">
+        <div class="navbar-fixed">
+            <nav class="black white-text">
+                <div class="container">
+                    <div class="nav-wrapper">
+                        <a href=#" class="brand-logo">Portfolio</a>
+                        <a href="#" data-target="nav-mobile" class="sidenav-trigger">
+                            <i class="material-icons">menu</i>
+                        </a>
+                        <ul class="right hide-on-med-and-down">
+                            <li><a href="#home">Home</a></li>
+                            <li><a href="#skills">Skills</a></li>
+                            <li><a href="#projects">Projects</a></li>
+                            <li><a href="#contact">Contact</a></li>
+                        </ul>                                         
+                    </div>
+                    
+                </div>
+            </nav>    
+        </div>
+        <!--Sidenav-->
+        <ul id="nav-mobile" class="sidenav">
+            <h4 class="grey-text text-darken-1 center">Portfolio</h4>
+            <li><div class="divider"></div></li>
+            <li><a href="#home">Home</a></li>
+            <li><a href="#skills">Skills</a></li>
+            <li><a href="#projects">Projects</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
         <div class="parallax-container center white-text">
             <div class="section">
                 <div class="container">
@@ -50,8 +56,8 @@
             <div class="parallax">
                 <img src="img/stars-r.png">
             </div>
-        </div>
-    </div>
+        </div>         
+    </header>
 
     <!--Section: Skills-->
     <section class="section section-skills grey lighten-2 scrollspy" id="skills">
